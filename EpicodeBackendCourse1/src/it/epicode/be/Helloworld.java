@@ -75,10 +75,13 @@ public static void main (String[] args){
 	String auto ="MERCEDES";
 	//output = fiat, bmw, mercedes, audi, alfaromes, ferrari
 	
+//System.out.println(inserisciInArray(arr,auto)); così in console mi esce indirizzo di memoria e non elems dell'array
    String arrayFinale[] = inserisciInArray(arr, auto); // salvo  metodo in una variabile così la posso riutilizzare
+   // il metodo inserisciInArray ha come risultato un array a2. Per usarlo all'esterno salvo metodo in un nuovo array
    for (int i = 0; i<arrayFinale.length; i++) {
 	   System.out.println(arrayFinale[i]); 
    }
+   
 //ESERCIZIO 3
    Scanner s = new Scanner(System.in);
    System.out.println("scrivi il tuo nome");
