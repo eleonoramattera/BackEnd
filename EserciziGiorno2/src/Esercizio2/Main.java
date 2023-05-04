@@ -21,7 +21,7 @@ public class Main {
 System.out.println(s.listaChiamate[0]);
 
 
-
+System.out.println(s.stampaArray());
 	
 	}
 
