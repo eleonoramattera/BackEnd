@@ -35,7 +35,7 @@ public class Immagine extends ElementoMultimediale implements RegolazioneLuminos
 		return luminosità-1;
 	}
 	
-	public void show() {
+	public  void show() {
 		System.out.print(title);
 		for (int i=0; i<luminosità; i++) {
 			System.out.print("!");
