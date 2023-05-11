@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class MainProject {
 
-static ArrayList<ElementoMultimediale> elementiArr = new ArrayList<>();
 static Scanner s = new Scanner(System.in);
+static ArrayList<ElementoMultimediale> elementiArr = new ArrayList<>();
 	
 	public static void main(String[] args) throws InputMismatchException {
 		boolean end =false;
@@ -91,27 +91,24 @@ static Scanner s = new Scanner(System.in);
 	}
        
 		        
-		           
-
-		       // System.out.println("\n *** INIZIO A RIPRODURRE I CONTENUTI IN ORDINE *** \n");
-		        int scelta = 0;
-		        while (true) {
-		            System.out.println("\n *** SCEGLI COSA RIPRODURRE (Hai 5 Elementi) 0 per uscire *** \n");
-		            scelta = s.nextInt();
+		          
+    int scelta = 0;
+ while (true) {
+ System.out.println(" SCEGLI COSA RIPRODURRE (Hai 5 Elementi) 0 per uscire");
+ scelta = s.nextInt();
 
 		if (scelta > 0 && scelta <= 5) {
-		    if (media.get(scelta-1) instanceof Playable) {
-		        switch (media.get(scelta-1).getType()) {
-		            case AUDIO -> Playable.play((Audio) media.get(scelta - 1));
-		            case VIDEO -> Playable.play((Video) media.get(scelta - 1));
+		    if (elementiArr.get(scelta-1) instanceof Immagine) {
+		        switch (elementiArr.get(scelta-1)) {
+		            case AUDIO ;
+		            case VIDEO ;
 		        }
 		    } else {
-		        Image.show((Image) media.get(scelta-1));
+		        Immagine.show((Immagine) elementiArr.get(scelta-1));
 		    }
 		    } else {
 
-		        System.out.println("\n *** Grazie per aver partecipato! ***");
-		        System.out.println("\n *** Made with Love by Vincenzo Maiorana ***");
+		       
 		        System.exit(0);
 		    }
 		}        
@@ -119,3 +116,6 @@ static Scanner s = new Scanner(System.in);
 		    
 
 }}
+
+	
+}
