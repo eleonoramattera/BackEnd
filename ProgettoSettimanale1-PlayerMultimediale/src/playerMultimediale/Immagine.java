@@ -1,7 +1,7 @@
 package playerMultimediale;
 
 public class Immagine extends ElementoMultimediale implements RegolazioneLuminosità {
-    private int luminosità;
+    private static int luminosità;
 
 	public int getLuminosità() {
 		return luminosità;
@@ -16,7 +16,7 @@ public class Immagine extends ElementoMultimediale implements RegolazioneLuminos
 	};
 	
 	public Immagine(String title, int luminosità) {
-		super(title);
+		super(title, Tipo.IMMAGINE);
 		this.luminosità = luminosità;
 	}
 	
@@ -35,7 +35,7 @@ public class Immagine extends ElementoMultimediale implements RegolazioneLuminos
 		return luminosità-1;
 	}
 	
-	public  void show() {
+	public static  void show() {
 		System.out.print(title);
 		for (int i=0; i<luminosità; i++) {
 			System.out.print("!");

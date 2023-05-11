@@ -1,8 +1,8 @@
 package playerMultimediale;
 
 public class Audio extends ElementoMultimediale implements RegolazioneVolume, Riproduci{
-	private int volume;
-	private double durata;
+	private static int volume;
+	private static double durata;
 
 	public int getVolume() {
 		return volume;
@@ -26,7 +26,7 @@ public class Audio extends ElementoMultimediale implements RegolazioneVolume, Ri
 	}
 	
 	public Audio(String title, int volume, double durata) {
-		super(title);
+		super(title, Tipo.AUDIO);
 		this.volume= volume;
 		this.durata = durata;
 	}
@@ -49,7 +49,6 @@ public class Audio extends ElementoMultimediale implements RegolazioneVolume, Ri
 	return volume -1;
 }
 
-	@Override
 	public void play() {
 		for(int i=0;i<durata;i++) {
 			System.out.print(title);

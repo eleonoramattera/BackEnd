@@ -1,8 +1,8 @@
 package playerMultimediale;
 
 public abstract class ElementoMultimediale {
-   protected String title;
-
+   protected static String title;
+   protected static Tipo tipo;
    
 public String getTitle() {
 	return title;
@@ -18,10 +18,17 @@ public void setTitle(String title) {
 public ElementoMultimediale() {
 }
 
-public ElementoMultimediale(String title) {
+public ElementoMultimediale(String title, Tipo tipo) {
 	this();
-	this.title = title;
+	ElementoMultimediale.title = title;
+	ElementoMultimediale.tipo = tipo;
 	}
+
+public void play() {
+	// TODO Auto-generated method stub
+	
+}
+
 
 
 

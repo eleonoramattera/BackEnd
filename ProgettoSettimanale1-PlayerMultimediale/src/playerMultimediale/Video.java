@@ -1,8 +1,8 @@
 package playerMultimediale;
 
 public class Video extends ElementoMultimediale implements RegolazioneVolume, RegolazioneLuminosità, Riproduci {
-	private int volume;
-	private double durata;
+	private static int volume;
+	private static double durata;
 	private int luminosità;
 	
 	public int getVolume() {
@@ -29,7 +29,7 @@ public class Video extends ElementoMultimediale implements RegolazioneVolume, Re
     };
     
     public Video(String title, int volume, double durata, int luminosità) {
-    	super(title);
+    	super(title, Tipo.VIDEO);
     	this.volume = volume;
     	this.durata = durata;
     	this.luminosità=luminosità;
@@ -57,7 +57,6 @@ public class Video extends ElementoMultimediale implements RegolazioneVolume, Re
 	public int abbassaLuminosità(int luminosità) {
       	return luminosità-1;
 	}
-	@Override
 	
 	public void play() {
 		for (int i = 0; i<durata; i++) {
