@@ -3,24 +3,19 @@
   <appender name="CONSOLE_OUTPUT" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
       <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-  <!--  con patter decido io cosa far vedere in console-->
     </encoder>
   </appender>
   
-  <appender name="FILE_OUTPUT" class="ch.qos.logback.core.ConsoleAppender">
+  <appender name="FILE_OUTPUT" class="ch.qos.logback.core.FileAppender">
    <file>Eleonora.log</file>
-   <!--file dove stampare i dati-->
-   
+
     <encoder>
       <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-  <!-- con patter decido io cosa far vedere in console-->
     </encoder>
   </appender>
   
   
-  <root level="error"> 
- <!-- di tutti i log mi stampa solo quelli segnati come error, debug, warning ecc.
-  con debug stampa tutti gli errori -->
+  <root level="debug"> 
     <appender-ref ref="CONSOLE_OUTPUT" />
         <appender-ref ref="FILE_OUTPUT" />
   </root>

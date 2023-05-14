@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 import org.slf4j.Logger;// non lo poso fare perchè in questo progetto non ho importato
 public class Main {
-	Logger log = LoggerFactory.
+
 	public static void main(String[] args) {
 	//iterare ciclare
 		
@@ -45,9 +45,9 @@ public class Main {
 	
 	
 	//List
-	get() perleggere
-	get(0)
-	set(1, "elemento aggiunto") per aggiungere
+	//get() perleggere
+//	get(0)
+	//set(1, "elemento aggiunto") per aggiungere
 	
 
 	

@@ -1,0 +1,5 @@
+15:10:19.514 [main] ERROR librerieJavaTeoria.MainLibreria - errore
+15:11:21.096 [main] INFO  librerieJavaTeoria.MainLibreria - TestLoggerInfo
+15:11:21.105 [main] ERROR librerieJavaTeoria.MainLibreria - errore
+15:11:21.107 [main] WARN  librerieJavaTeoria.MainLibreria - Test Warning
+15:11:21.108 [main] DEBUG librerieJavaTeoria.MainLibreria - debug
