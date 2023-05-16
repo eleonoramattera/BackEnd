@@ -3,12 +3,14 @@ package catalogoBibliografico;
 public class Libri extends Catalogo{
 
 	private String autore;
-	private String genere;
+	private Genere genere;
+
+    
 			
 
 				
-	public Libri(int isbn, String titolo, int year, int pages, String autore, String genere) throws Exception {
-	   super(isbn, titolo, year, pages);
+	public Libri(int isbn, String titolo, int year, int numberOfPage, String autore, Genere genere){
+	   super(isbn, titolo, year, numberOfPage);
 	   this.autore = autore;
 	   this.genere = genere;
 		}
@@ -21,14 +23,11 @@ public class Libri extends Catalogo{
 	  this.autore = autore;
 	  }
 
-	public String getGenere() {
+	public Genere getGenere() {
 	return genere;
 	}
 
-	public void setGenere(String genere) {
-	this.genere = genere;
-	}
-				
+		
 			
 
 	public String toString() {
@@ -58,21 +57,42 @@ public class Libri extends Catalogo{
 		int year = scanner.nextInt();
 				        
 		 System.out.println(">> Inserisci il numero di pagine");
-		 int pages = scanner.nextShort();
+		 int numberOfPage = scanner.nextShort();
 		 scanner.nextLine();
 				        
 		System.out.println(" Inserisci il nome dell'autore");
 		String autore = scanner.nextLine();
 				        
 		System.out.println("Inserisci il genere del libro");
-		String genere = scanner.next();
-				     
+		Genere genere = null;
+		
+		  int genre = 0;
+		     do {
+		        genre = scanner.nextInt();
+		           switch (genre) {
+		                case 1:
+		                   genere = Genere.HORROR;
+		                    break;
+		                case 2:
+		                	genere  = Genere.FANTASY;
+		                	break;
+		                case 3:
+		                	genere  = Genere.HISTORY;
+		                	break;
+		                default:
+		                    System.out.println("Errore");
+
+		            }
+		            ;
+		        } while (genre < 0 || genre > 3);
 				        
 				        
 		 System.out.println(" Libro aggiunto con successo");
 				       
 				      
-		return new Libri( isbn, titolo, year, pages, autore, genere);
+
+			return new Libri( isbn, titolo, year, numberOfPage, autore, genere);
+	
 				        
 		 }
 				  

@@ -2,22 +2,22 @@ package catalogoBibliografico;
 
 import java.util.Scanner;
 
-public class Catalogo {
+public abstract class Catalogo {
 
 	static Scanner scanner = new Scanner (System.in);
 				
 	protected int isbn;
 	protected String titolo;
 	protected int year;
-	private int numberOfPage;
+	protected  int numberOfPage;
 				
     private Catalogo () {};
 				
-    public Catalogo (int isbn, String titolo, int year, int pages) {
+    public Catalogo (int isbn, String titolo, int year, int numberOfPage) {
 	this.isbn = isbn;
 	this.titolo = titolo;
 	this.year = year;
-	this.numberOfPage = pages;
+	this.numberOfPage = numberOfPage;
 	}
 
 	public int getISBN() {

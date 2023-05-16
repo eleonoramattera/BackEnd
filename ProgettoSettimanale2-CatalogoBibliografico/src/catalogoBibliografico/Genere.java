@@ -1,7 +1,7 @@
 package catalogoBibliografico;
 
 public enum Genere {
-HORROR, FANTASY,HISTORY
+HORROR, FANTASY,HISTORY, 
 	
 
 }

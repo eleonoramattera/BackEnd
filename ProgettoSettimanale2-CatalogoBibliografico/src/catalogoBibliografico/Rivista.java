@@ -6,8 +6,8 @@ public class Rivista extends Catalogo {
  private PeriodicitaRiviste periodicità;
 	    
 	
-public Rivista(int isbn, String titolo, int year, int pages, PeriodicitaRiviste periodità) throws Exception  {
-	super(isbn, titolo, year, pages);
+public Rivista(int isbn, String titolo, int year, int numberOfPage, PeriodicitaRiviste periodità)  {
+	super(isbn, titolo, year, numberOfPage);
 	this.periodicità = periodicità;
 	    }
 
