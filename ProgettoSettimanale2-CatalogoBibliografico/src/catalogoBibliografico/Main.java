@@ -3,11 +3,13 @@ package catalogoBibliografico;
 
 import java.io.File;
 import java.util.Scanner;
+import java.util.stream.Collectors;
+
 import org.apache.commons.io.FileUtils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
 
 public class Main {
 	
@@ -46,7 +48,7 @@ public class Main {
 				System.out.println("ERRORE");
 			}
 		}
-		// RICERCA X ANNO O AUTORE
+		// RICERCA  ANNO O AUTORE
 
 				int h = 1;
 				while (h > 0) {
@@ -119,13 +121,13 @@ public class Main {
 		System.out.print("ricerca Articolo per AUTORE: ");
 		s.nextLine();
 		String aut = s.nextLine().toUpperCase();
-		List<Catalogo>.stream()
-				.filter(singoloLibro -> ((Libro) singoloLibro).getAutore().toUpperCase().contains(aut.toUpperCase()))
+		list.stream()
+				.filter(singoloLibro -> ((Libri) singoloLibro).getAutore().toUpperCase().contains(aut.toUpperCase()))
 				.forEach(Libro -> System.out.println(Libro.toString()));
 	}
 
 	public static void aggiungiArticolo(ArrayList<Catalogo> list) {
-		StringBuilder BufferPass = new StringBuilder();
+	//	StringBuilder BufferPass = new StringBuilder();
 		System.out.println("indica se é una Libro o una Rivista digitando LIBRO o RIVISTA:");
 		String res = s.nextLine().toUpperCase();
 		if (res.equals("LIBRO")) {
@@ -199,7 +201,8 @@ public class Main {
 		}
 
 	public static void RimuoviArticolo(StringBuilder isbn, ArrayList<Catalogo> list) {
-		list = (ArrayList<Catalogo>) list.stream().filter(e -> e.getCod_ISBN() != isbn).collect(Collectors.toList());
+		list = (ArrayList<Catalogo>) list.stream()
+				.filter(e -> e.isbn != isbn).collect(Collectors.toList());
 	}
 
 
