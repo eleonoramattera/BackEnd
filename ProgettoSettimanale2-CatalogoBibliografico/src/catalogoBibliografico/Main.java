@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import org.apache.commons.io.FileUtils;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 
 
@@ -20,10 +21,13 @@ public class Main {
 	public static void main(String[] args) {
 		
 		ArrayList<Catalogo> listaElementi = new ArrayList<Catalogo>();
-		//StringBuilder BufferPass = new StringBuilder();
-		String res;
-
+	    String res;
+	  
+	  scriviFile(listaElementi);
+      aggiungiArticolo(listaElementi);
 	
+
+      
 		System.out.println("ARCHIVIO");
 		System.out.println("Vuoi caricare il file dall'archivio o generare uno nuovo? digita CARICA o GENERA");
 		int l = 1;
@@ -72,25 +76,29 @@ public class Main {
 						System.out.println("Risposta non corretta.");
 					}
 				}
-				// SALVATAGGIO FILE
+		
+ 
+	}
+	
+	//SALVATAGGIO SU FILE
+	public static void scriviFile(ArrayList<Catalogo> elem) {
+//		System.out.println("digita nome del file");
+//		String nomeFile = s.nextLine();
+//		System.out.println("Il file si chiama: " + nomeFile);
+//		 file = new File(nomeFile);
+		try {
+			FileUtils.writeStringToFile(file, elem.toString(), "UTF-8", true);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-				System.out.println("Salvataggio database, digita nome del file");
-				String bufferName = s.nextLine();
-				System.out.println("Il file si chiama: " + bufferName);
-				File file = new File(bufferName);
-				try {
-					FileUtils.writeStringToFile(file, listaElementi.toString(), "UTF-8");
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
 
-				System.out.println("");
-				System.out.println("Il programma è finito, arrivederci");
-    
+		System.out.println("testo salvato su file");
+
 	}
 	
 	public static void generaArchivio(ArrayList<Catalogo> list) {
-		StringBuilder BufferPass = new StringBuilder();
+		
 		Libri a1 = new Libri(4554, "It", 1865, 1986, "Stephen King ", Genere.HORROR);
     	Libri a2 = new Libri(6565, "I pilastri della Terra", 1989, 312, "Ken Follet", Genere.HISTORY);
 		Libri a3 = new Libri(2322, "Le Mille e una notte", 1300, 750, "A. Galland", Genere.NOVEL);
@@ -127,14 +135,17 @@ public class Main {
 	}
 
 	public static void aggiungiArticolo(ArrayList<Catalogo> list) {
-	//	StringBuilder BufferPass = new StringBuilder();
-		System.out.println("indica se é una Libro o una Rivista digitando LIBRO o RIVISTA:");
+		boolean end =false;
+	do {
+try {
+		System.out.println("Aggiungi articolo: indica se é una Libro o una Rivista digitando LIBRO o RIVISTA oppure 'ESCI' per uscire");
 		String res = s.nextLine().toUpperCase();
 		if (res.equals("LIBRO")) {
 			System.out.println("Hai scelto libro");
 			//ISBN
 			System.out.println("Inserisci ISBN:");
 			int isbn = s.nextInt();
+			s.nextLine();
 			//TITOLO
 			System.out.println("Inserisci Titolo: ");
 			String tit = s.nextLine();
@@ -150,32 +161,19 @@ public class Main {
 			System.out.println("Inserisci Autore: ");
 			String Aut = s.nextLine();
 			//GENERE
-			System.out.println("Inserisci Genere: ");
 			System.out.println("Inserisci Genere: HORROR, FANTASY, HISTORY, NOVEL, THRILLER");
-			Genere gen;
-//			if(gen =="horror".toUpperCase()) {
-//				Genere g = Genere.valueOf(gen);
-//			} else if (gen =="fantasy".toUpperCase()) {
-//				Genere g = Genere.valueOf(gen);
-//			}
-			gen = Genere.valueOf(s.nextLine());
-			
-//			public enum Day {
-//			    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, 
-//			    THURSDAY, FRIDAY, SATURDAY
-//			}
-
-//
-//			String day = "SUNDAY";
-//			Day dayEnum = Day.valueOf(day);	
-//			}
+			Genere gen;			
+			gen = Genere.valueOf(s.nextLine().toUpperCase());
 			Libri a7 = new Libri(isbn, tit, aPub, nPag, Aut, gen );
 			list.add(a7);
-			} else if (res.equals("RIVISTA")) {
+			System.out.println("hai inserito " + a7);
+			} 
+		    else if (res.equals("RIVISTA")) {
 			System.out.println("Hai scelto Rivista");
 			//ISBN
 			System.out.println("Inserisci ISBN:");
 			int isbn = s.nextInt();
+			s.nextLine();
 			//TITOLO
 			System.out.println("Inserisci Titolo: ");
 			String tit = s.nextLine();
@@ -190,19 +188,33 @@ public class Main {
 			//PERIODICITA'
 			System.out.println("Periodicità: SETTIMANALE, MENSILE, SEMESTRALE");
 			PeriodicitaRiviste per;
-			per =PeriodicitaRiviste.valueOf(s.nextLine());
+			per =PeriodicitaRiviste.valueOf(s.nextLine().toUpperCase());
 
-			
 			Rivista a8 = new Rivista(isbn, tit, aPub, nPag, per);
 			list.add(a8);
-		} else {
-			System.out.println("Risposta non corretta.");
+			System.out.println("hai inserito " + a8);
+		}else if (res.equals("ESCI")) {
+			end = true;
+			System.out.println("SEI USCITO");
 		}
+			else {
+			System.out.println("ERRORE. RIPROVA");
 		}
+    }catch(InputMismatchException e){
+	System.out.println("Valore non valido");
+}catch(IllegalArgumentException e) {
+	System.out.println("inserisci uno dei valori suggeriti ⬆ ");
+}catch (Exception e ) {
+	System.out.println("ERRORE");
+}
+	}while(!end);
+		}
+	
 
-	public static void RimuoviArticolo(StringBuilder isbn, ArrayList<Catalogo> list) {
+	public static void RimuoviArticolo(int isbn, ArrayList<Catalogo> list) {
 		list = (ArrayList<Catalogo>) list.stream()
-				.filter(e -> e.isbn != isbn).collect(Collectors.toList());
+				.filter(e -> e.getISBN() != isbn)
+				.collect(Collectors.toList());
 	}
 
 

@@ -44,74 +44,59 @@ public class Libri extends Catalogo{
 				
 				
 				
-   public static Libri aggiungereLibro(){
-	try {			  
-    System.out.println( "Inserisci l'isbn del libro");
-	int isbn = scanner.nextInt();
-	scanner.nextLine();
-				      
-		System.out.println("Inserisci titolo del libro");
-		String titolo = scanner.nextLine();
-				        
-		System.out.println(" Inserisci anno di pubblicazione");
-		int year = scanner.nextInt();
-				        
-		 System.out.println(">> Inserisci il numero di pagine");
-		 int numberOfPage = scanner.nextShort();
-		 scanner.nextLine();
-				        
-		System.out.println(" Inserisci il nome dell'autore");
-		String autore = scanner.nextLine();
-				        
-		System.out.println("Inserisci il genere del libro");
-		System.out.println("1-HORROR, 2-FANTASY, 3HISTORY");
-		Genere genere = null;
-		
-		  int genre = 0;
-		     do {
-		        genre = scanner.nextInt();
-		           switch (genre) {
-		                case 1:
-		                   genere = Genere.HORROR;
-		                    break;
-		                case 2:
-		                	genere  = Genere.FANTASY;
-		                	break;
-		                case 3:
-		                	genere  = Genere.HISTORY;
-		                	break;
-		                default:
-		                    System.out.println("Errore");
-
-		            }
-		            ;
-		        } while (genre < 0 || genre > 3);
-				        
-				        
-		 System.out.println(" Libro aggiunto con successo");
-				       
-				      
-	}catch(Exception e) {
-		System.out.println("errore");
-	}
-	return new Libri( isbn, titolo, year, numberOfPage, autore, genere);
-	
-				        
-		 }
-				  
-				        
+//   public static Libri aggiungereLibro(){
+//	try {			  
+//    System.out.println( "Inserisci l'isbn del libro");
+//	int isbn = scanner.nextInt();
+//	scanner.nextLine();
+//				      
+//		System.out.println("Inserisci titolo del libro");
+//		String titolo = scanner.nextLine();
+//				        
+//		System.out.println(" Inserisci anno di pubblicazione");
+//		int year = scanner.nextInt();
+//				        
+//		 System.out.println(">> Inserisci il numero di pagine");
+//		 int numberOfPage = scanner.nextShort();
+//		 scanner.nextLine();
+//				        
+//		System.out.println(" Inserisci il nome dell'autore");
+//		String autore = scanner.nextLine();
+//				        
+//		System.out.println("Inserisci il genere del libro");
+//		System.out.println("1-HORROR, 2-FANTASY, 3HISTORY");
+//		Genere genere = null;
+//		
+//		  int genre = 0;
+//		     do {
+//		        genre = scanner.nextInt();
+//		           switch (genre) {
+//		                case 1:
+//		                   genere = Genere.HORROR;
+//		                    break;
+//		                case 2:
+//		                	genere  = Genere.FANTASY;
+//		                	break;
+//		                case 3:
+//		                	genere  = Genere.HISTORY;
+//		                	break;
+//		                default:
+//		                    System.out.println("Errore");
+//
+//		            }
+//		            ;
+//		        } while (genre < 0 || genre > 3);
+//				        
+//				        
+//		 System.out.println(" Libro aggiunto con successo");
+//				       
+//				      
+//	}catch(Exception e) {
+//		System.out.println("errore");
+//	}
+//	return new Libri( isbn, titolo, year, numberOfPage, autore, genere);
+			        
 			
 
-				
-				
-				
-				
-				
-				
-	
-		
-		
-
-	
 
 }

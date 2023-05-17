@@ -29,51 +29,47 @@ public String toString() {
 	return res;
 	  }
 
- public static Rivista aggiungiRivista()  {
-	    	
-	 System.out.println(" Inserisci l'ISBN della rivista");
-	 int isbn = scanner.nextInt();
-	 scanner.nextLine();
-	        
-	  System.out.println("Inserisci titolo della rivista");
-	  String title = scanner.nextLine();
-	        
-	  System.out.println("Inserisci anno di pubblicazione");
-	  int year = scanner.nextInt();
-	        
-	  System.out.println("Inserisci il numero di pagine");
-	  int pages = scanner.nextShort();
-	        
-	  System.out.println(">> Inserisci periodicità");
-	  PeriodicitaRiviste periodicità = null;
-	  int period = 0;
-	     do {
-	        period = scanner.nextInt();
-	           switch (period) {
-	                case 1:
-	                    periodicità = PeriodicitaRiviste.SETTIMANALE;
-	                    break;
-	                case 2:
-	                	periodicità  = PeriodicitaRiviste.MENSILE;
-	                	break;
-	                case 3:
-	                	periodicità  = PeriodicitaRiviste.SEMESTRALE;
-	                	break;
-	                default:
-	                    System.out.println("Errore");
-
-	            }
-	            ;
-	        } while (period < 0 || period > 3);
-
-	  System.out.println("ivista aggiunta alla biblioteca!");
-	       
-	     return new Rivista(isbn, title, year, pages, periodicità);
-	           
-	       
-	        
-	    
-	}
+// public static Rivista aggiungiRivista()  {
+//	    	
+//	 System.out.println(" Inserisci l'ISBN della rivista");
+//	 int isbn = scanner.nextInt();
+//	 scanner.nextLine();
+//	        
+//	  System.out.println("Inserisci titolo della rivista");
+//	  String title = scanner.nextLine();
+//	        
+//	  System.out.println("Inserisci anno di pubblicazione");
+//	  int year = scanner.nextInt();
+//	        
+//	  System.out.println("Inserisci il numero di pagine");
+//	  int pages = scanner.nextShort();
+//	        
+//	  System.out.println(">> Inserisci periodicità");
+//	  PeriodicitaRiviste periodicità = null;
+//	  int period = 0;
+//	     do {
+//	        period = scanner.nextInt();
+//	           switch (period) {
+//	                case 1:
+//	                    periodicità = PeriodicitaRiviste.SETTIMANALE;
+//	                    break;
+//	                case 2:
+//	                	periodicità  = PeriodicitaRiviste.MENSILE;
+//	                	break;
+//	                case 3:
+//	                	periodicità  = PeriodicitaRiviste.SEMESTRALE;
+//	                	break;
+//	                default:
+//	                    System.out.println("Errore");
+//
+//	            }
+//	            ;
+//	        } while (period < 0 || period > 3);
+//
+//	  System.out.println("ivista aggiunta alla biblioteca!");
+//  return new Rivista(isbn, title, year, pages, periodicità);
+   
+//	}
 
 
 }
