@@ -1,8 +1,12 @@
 package catalogoBibliografico;
 
 public enum Genere {
-HORROR, FANTASY, HISTORY, NOVEL, THRILLER, 
 
 	
+HORROR, FANTASY, HISTORY, NOVEL, THRILLER, 
+
+
+
+
 
 }

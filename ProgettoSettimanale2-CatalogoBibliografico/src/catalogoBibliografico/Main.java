@@ -89,13 +89,13 @@ public class Main {
 	
 	public static void generaArchivio(ArrayList<Catalogo> list) {
 		StringBuilder BufferPass = new StringBuilder();
-		Libri a1 = new Libri(4554754, "Guerra e Pace", 1865, 1415, "Lev Tolstoj", Genere.HORROR);
-    	Libri a2 = new Libri(65645, "Il barone rampante", 1957, 312, "Italo Calvino", Genere.HISTORY);
-		Libri a3 = new Libri(23432, "Moby Dick", 1851, 750, "Herman Melville", Genere.NOVEL);
-		Libri a4 = new Libri(5432, "Lepanto", 2010, 784, "Alessandro Barbero", Genere.THRILLER);
-     	Libri a5 = new Libri(54343, "Delitto e castigo", 1866, 784, "Fedor", Genere.FANTASY);
-    	Rivista a6 = new Rivista(5342345, "Focus", 2022, 150, PeriodicitaRiviste.MENSILE);
-		Rivista a7 = new Rivista(5342345, "Focus", 2022, 150, PeriodicitaRiviste.SETTIMANALE);
+		Libri a1 = new Libri(4554, "It", 1865, 1986, "Stephen King ", Genere.HORROR);
+    	Libri a2 = new Libri(6565, "I pilastri della Terra", 1989, 312, "Ken Follet", Genere.HISTORY);
+		Libri a3 = new Libri(2322, "Le Mille e una notte", 1300, 750, "A. Galland", Genere.NOVEL);
+		Libri a4 = new Libri(5432, "Presunto innocente", 1990, 784, " Alan J. Pakula", Genere.THRILLER);
+     	Libri a5 = new Libri(5433, "Harry Potter", 1998, 784, "J. K. Rowling", Genere.FANTASY);
+    	Rivista a6 = new Rivista(5345, "Focus", 2022, 150, PeriodicitaRiviste.MENSILE);
+		Rivista a7 = new Rivista(5235, "New York Times for Kids", 2000, 100, PeriodicitaRiviste.SETTIMANALE);
 		
 		list.add(a1);
 		list.add(a2);
@@ -150,61 +150,45 @@ public class Main {
 			//GENERE
 			System.out.println("Inserisci Genere: ");
 			System.out.println("Inserisci Genere: HORROR, FANTASY, HISTORY, NOVEL, THRILLER");
-			String gen = s.nextLine();
-			int g =1;
-			while(g>0) {
-				switch( gen) {
-				case "HORROR":
-				  g=1;
-				  break;
-				case "FANTASY":
-					g = 2;
-					break;
-				case "HISTORY":
-					g = 3;
-					break;
-				case "NOVEL":
-					g = 4;
-					break;
-				case "THRILLER":
-					g = 5;
-					break;
-				default:
-					System.out.println("Devi digitare  HORROR, FANTASY, HISTORY, NOVEL, THRILLER Riprova: ");
-					break;
-				
-			}
+			Genere gen;
+//			if(gen =="horror".toUpperCase()) {
+//				Genere g = Genere.valueOf(gen);
+//			} else if (gen =="fantasy".toUpperCase()) {
+//				Genere g = Genere.valueOf(gen);
+//			}
+			gen = Genere.valueOf(s.nextLine());
+			
+//			public enum Day {
+//			    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, 
+//			    THURSDAY, FRIDAY, SATURDAY
+//			}
+
+//
+//			String day = "SUNDAY";
+//			Day dayEnum = Day.valueOf(day);	
+//			}
 			Libri a7 = new Libri(isbn, tit, aPub, nPag, Aut, gen );
 			list.add(a7);
 			} else if (res.equals("RIVISTA")) {
-			System.out.println("Digita il Titolo, anno di pubblicazione, numero pagine, periodicità");
-			System.out.println("Titolo: ");
+			System.out.println("Hai scelto Rivista");
+			//ISBN
+			System.out.println("Inserisci ISBN:");
+			int isbn = s.nextInt();
+			//TITOLO
+			System.out.println("Inserisci Titolo: ");
 			String tit = s.nextLine();
-			System.out.println("anno di pubblicazione: ");
+			//ANNO PUB
+			System.out.println("Inserisci anno di pubblicazione: ");
 			int aPub = s.nextInt();
 			s.nextLine();
-			System.out.println("numero pagine: ");
+			//N PAGINE
+			System.out.println("Inserisci numero pagine: ");
 			int nPag = s.nextInt();
 			s.nextLine();
+			//PERIODICITA'
 			System.out.println("Periodicità: SETTIMANALE, MENSILE, SEMESTRALE");
-			String per =s.nextLine().toUpperCase();
-			int Check = 1;
-			while (Check > 0) {
-				switch (per) {
-				case "SETTIMANALE":
-					Check = 0;
-					break;
-				case "MENSILE":
-					Check = 0;
-					break;
-				case "SEMESTRALE":
-					Check = 0;
-					break;
-				default:
-					System.out.println("Devi digitare SETTIMANALE, MENSILE, SEMESTRALE, ridigita: ");
-					break;
-				}
-			}
+			PeriodicitaRiviste per;
+			per =PeriodicitaRiviste.valueOf(s.nextLine());
 
 			
 			Rivista a8 = new Rivista(isbn, tit, aPub, nPag, per);
