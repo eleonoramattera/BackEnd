@@ -6,10 +6,10 @@ public abstract class Catalogo {
 
 	static Scanner scanner = new Scanner (System.in);
 				
-	protected int isbn;
-	protected String titolo;
-	protected int year;
-	protected  int numberOfPage;
+	protected static int isbn;
+	protected static String titolo;
+	protected static int year;
+	protected static int numberOfPage;
 				
     private Catalogo () {};
 				

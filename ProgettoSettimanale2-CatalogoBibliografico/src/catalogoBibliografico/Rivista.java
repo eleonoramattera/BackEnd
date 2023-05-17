@@ -3,9 +3,10 @@ package catalogoBibliografico;
 public class Rivista extends Catalogo {
 
 
- private PeriodicitaRiviste periodicità;
+protected static PeriodicitaRiviste periodicità;
 	    
-	
+//COSTRUTTORE
+ 
 public Rivista(int isbn, String titolo, int year, int numberOfPage, PeriodicitaRiviste periodità)  {
 	super(isbn, titolo, year, numberOfPage);
 	this.periodicità = periodicità;
@@ -28,7 +29,7 @@ public String toString() {
 	return res;
 	  }
 
- public static Rivista aggiungiRivista() throws Exception {
+ public static Rivista aggiungiRivista()  {
 	    	
 	 System.out.println(" Inserisci l'ISBN della rivista");
 	 int isbn = scanner.nextInt();

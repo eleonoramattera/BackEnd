@@ -2,8 +2,8 @@ package catalogoBibliografico;
 
 public class Libri extends Catalogo{
 
-	private String autore;
-	private Genere genere;
+	private static String autore;
+	private static Genere genere;
 
     
 			
@@ -44,8 +44,8 @@ public class Libri extends Catalogo{
 				
 				
 				
-   public static Libri aggiungereLibro() throws Exception {
-				  
+   public static Libri aggiungereLibro(){
+	try {			  
     System.out.println( "Inserisci l'isbn del libro");
 	int isbn = scanner.nextInt();
 	scanner.nextLine();
@@ -64,6 +64,7 @@ public class Libri extends Catalogo{
 		String autore = scanner.nextLine();
 				        
 		System.out.println("Inserisci il genere del libro");
+		System.out.println("1-HORROR, 2-FANTASY, 3HISTORY");
 		Genere genere = null;
 		
 		  int genre = 0;
@@ -90,8 +91,10 @@ public class Libri extends Catalogo{
 		 System.out.println(" Libro aggiunto con successo");
 				       
 				      
-
-			return new Libri( isbn, titolo, year, numberOfPage, autore, genere);
+	}catch(Exception e) {
+		System.out.println("errore");
+	}
+	return new Libri( isbn, titolo, year, numberOfPage, autore, genere);
 	
 				        
 		 }
