@@ -22,10 +22,20 @@ public class Main {
 		
 		ArrayList<Catalogo> listaElementi = new ArrayList<Catalogo>();
 	    String res;
+	    
+	    
+	generaArchivio(listaElementi);
+	    
 	  
-	  scriviFile(listaElementi);
-      aggiungiArticolo(listaElementi);
-	
+	scriviFile(listaElementi);
+	  
+	try {
+		String s = LeggiFile();
+		System.out.println(s);
+	} catch (IOException e1) {
+		e1.printStackTrace();
+	}
+	aggiungiArticolo(listaElementi);
 
       
 		System.out.println("ARCHIVIO");
@@ -79,6 +89,11 @@ public class Main {
 		
  
 	}
+	//LETTURA DA FILE
+	public static String  LeggiFile() throws IOException {
+	  return FileUtils.readFileToString(file, "UTF-8");	
+	}
+
 	
 	//SALVATAGGIO SU FILE
 	public static void scriviFile(ArrayList<Catalogo> elem) {
@@ -91,10 +106,7 @@ public class Main {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-
 		System.out.println("testo salvato su file");
-
 	}
 	
 	public static void generaArchivio(ArrayList<Catalogo> list) {
@@ -116,7 +128,9 @@ public class Main {
 		list.add(a7);
 	}
 
-
+	
+	
+//RICERCA PER ANNO
 	public static void ricercaPerAnno(ArrayList<Catalogo> list) {
 		System.out.println("ricerca Articolo per ANNO di pubblicazione: ");
 		int annoPub = s.nextInt();
@@ -125,6 +139,9 @@ public class Main {
 				.forEach(articolo -> System.out.println(articolo.toString()));
 	}
 
+	
+
+//RICERCA PER AUTORE	
 	public static void ricercaPerAutore(ArrayList<Catalogo> list) {
 		System.out.print("ricerca Articolo per AUTORE: ");
 		s.nextLine();
@@ -134,6 +151,9 @@ public class Main {
 				.forEach(Libro -> System.out.println(Libro.toString()));
 	}
 
+	
+	
+//AGGIUNGI ELEMENTO
 	public static void aggiungiArticolo(ArrayList<Catalogo> list) {
 		boolean end =false;
 	do {
@@ -211,6 +231,8 @@ try {
 		}
 	
 
+
+//RIMUOVI ELEMENTO
 	public static void RimuoviArticolo(int isbn, ArrayList<Catalogo> list) {
 		list = (ArrayList<Catalogo>) list.stream()
 				.filter(e -> e.getISBN() != isbn)

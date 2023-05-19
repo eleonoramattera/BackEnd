@@ -1,1 +1,217 @@
-[][]
+[][][][
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+][
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+][
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+][
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Libro:
+ Titolo: New York Times for Kids
+ Autore: J. K. Rowling
+ Genere: FANTASY
+ Numero Pagine: 100
+ Year: 2000
+ ISBN: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+, 
+Rivista:
+ Titolo: New York Times for Kids
+ Year: 2000
+ Periodicità: null
+ Numero Pagine: 100
+ isbn: 5235
+]
