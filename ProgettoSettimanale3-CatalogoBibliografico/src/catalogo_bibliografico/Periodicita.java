@@ -1,5 +1,5 @@
 package catalogo_bibliografico;
 
-public enum Frequenza {
+public enum Periodicita {
 	SETTIMANALE, MENSILE, SEMESTRALE
 }

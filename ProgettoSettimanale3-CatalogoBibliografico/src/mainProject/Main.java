@@ -4,10 +4,11 @@ import java.time.LocalDate;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import catalogo_bibliografico.Frequenza;
+import catalogo_bibliografico.Periodicita;
 import catalogo_bibliografico.Lettura;
 import catalogo_bibliografico.LetturaDAO;
 import catalogo_bibliografico.Libro;
+import catalogo_bibliografico.Periodicita;
 import catalogo_bibliografico.Rivista;
 import utils.JpaUtil; 
 
@@ -34,7 +35,7 @@ public class Main {
 				r1.setTitolo("Rivistaa");
 				r1.setAnno_pubblicazione(LocalDate.of(2007,10,11));
 				r1.setNumero_pagine(100);
-				r1.setPeriodicità(Frequenza.MENSILE);
+				r1.setPeriodicità(Periodicita.MENSILE);
 				
 				
 				Libro libroDaCercare = LetturaDAO.trova_libro(ISBN1);

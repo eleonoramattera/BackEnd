@@ -6,14 +6,14 @@ import javax.persistence.Entity;
 @Entity
 public class Rivista extends Lettura implements Serializable{
 
-	private Frequenza periodicità;
+	private Periodicita periodicità;
 
 	
 	// COSTUTTORI
 	public Rivista() {
 	}
 
-	public Rivista(Frequenza per) {
+	public Rivista(Periodicita per) {
 		super();
 		this.periodicità = per;
 	}
@@ -22,11 +22,11 @@ public class Rivista extends Lettura implements Serializable{
 	
 	
 	// GETTER SETTER
-	public Frequenza getPeriodicità() {
+	public Periodicita getPeriodicità() {
 		return periodicità;
 	}
 
-	public void setPeriodicità(Frequenza per) {
+	public void setPeriodicità(Periodicita per) {
 		this.periodicità = per;
 	}
 
