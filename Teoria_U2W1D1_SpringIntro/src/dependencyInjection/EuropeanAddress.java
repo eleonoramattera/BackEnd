@@ -1,14 +1,14 @@
 package dependencyInjection;
 
-public class Address {
+public class EuropeanAddress implements Continent{
 
+	
 	private String city;
 	private String street;
 	
-	public Address(String city, String street) {
+	public EuropeanAddress(String city, String street) {
 		super();
 		this.city = city;
 		this.street = street;
 	}
-	
 }
