@@ -40,7 +40,7 @@ public Menu menu() {
     m.getMenuPizza().add(pizzaMargherita());
     m.getMenuPizza().add(pizzaHawaiana());
     m.getMenuPizza().add(pizzaSalame());
-    m.getMenuPizza().add(pizzaFamilySize(pizzaMargherita()));
+    m.getMenuPizza().add(pizzaFamilySize());
     
     m.getMenuDrink().add(drinkAcqua());
     m.getMenuDrink().add(drinkVino());
@@ -73,10 +73,15 @@ public PizzaSalame pizzaSalame() {
 	return new PizzaSalame();	
 }
 
+//@Bean
+//@Scope("prototype")
+//public PizzaFamilySize pizzaFamilySize(Pizza p) {
+//	return new PizzaFamilySize(p);	
+//}
 @Bean
 @Scope("prototype")
-public PizzaFamilySize pizzaFamilySize(Pizza p) {
-	return new PizzaFamilySize(p);	
+public PizzaFamilySize pizzaFamilySize() {
+	return new PizzaFamilySize();	
 }
 
 
