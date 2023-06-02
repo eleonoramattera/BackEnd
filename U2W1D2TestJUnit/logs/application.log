@@ -1,0 +1,12 @@
+10:48:16.016 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - Starting U2W1D2TestJUnitApplication using Java 17.0.6 with PID 9116 (C:\Users\Micro\Desktop\BackEnd\U2W1D2TestJUnit\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D2TestJUnit)
+10:48:16.022 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - No active profile set, falling back to 1 default profile: "default"
+10:48:16.095 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:48:17.196 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:48:17.257 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - Started U2W1D2TestJUnitApplication in 1.943 seconds (process running for 3.332)
+10:48:17.261 [restartedMain] INFO  TestJUnit.runner.TestRunner - Test
+10:48:31.616 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - Starting U2W1D2TestJUnitApplication using Java 17.0.6 with PID 23288 (C:\Users\Micro\Desktop\BackEnd\U2W1D2TestJUnit\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D2TestJUnit)
+10:48:31.620 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - No active profile set, falling back to 1 default profile: "default"
+10:48:31.696 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:48:32.664 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:48:32.694 [restartedMain] INFO  T.U2W1D2TestJUnitApplication - Started U2W1D2TestJUnitApplication in 1.856 seconds (process running for 3.419)
+10:48:32.698 [restartedMain] INFO  TestJUnit.runner.TestRunner - Test logger
