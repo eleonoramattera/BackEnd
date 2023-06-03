@@ -1,0 +1,898 @@
+08:46:57.493 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 1928 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+08:46:57.507 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+08:46:57.648 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:46:59.180 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:46:59.223 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.349 seconds (process running for 4.578)
+08:57:34.585 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 10984 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+08:57:34.588 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+08:57:34.675 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:57:35.993 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:57:36.041 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.379 seconds (process running for 4.005)
+08:57:36.177 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+08:57:36.242 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class model.FoodDrinkItem (java.util.ArrayList is in module java.base of loader 'bootstrap'; model.FoodDrinkItem is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @31958fe3)
+	at model.Ordine.calcolaTotale(Ordine.java:64)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.configOrdiniTavoli(OrdineTavoloRunner.java:72)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.run(OrdineTavoloRunner.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+08:58:07.600 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 7512 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+08:58:07.605 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+08:58:07.725 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:58:08.791 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:58:08.820 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 1.957 seconds (process running for 3.77)
+08:59:56.239 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 4816 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+08:59:56.244 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+08:59:56.378 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:59:57.678 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:59:57.731 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.242 seconds (process running for 3.832)
+09:02:50.367 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 5704 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:02:50.373 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:02:50.453 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:02:51.094 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationOrdineTavolo': Unsatisfied dependency expressed through field 'costoCoperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "2;"
+09:02:51.099 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+09:02:51.109 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:02:51.142 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationOrdineTavolo': Unsatisfied dependency expressed through field 'costoCoperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "2;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:19)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "2;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 44 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "2;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 47 common frames omitted
+09:03:06.755 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 18992 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:03:06.759 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:03:06.829 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:03:07.477 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationOrdineTavolo': Unsatisfied dependency expressed through field 'costoCoperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "2;"
+09:03:07.481 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+09:03:07.489 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:03:07.517 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'configurationOrdineTavolo': Unsatisfied dependency expressed through field 'costoCoperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "2;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:19)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "2;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 44 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "2;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 47 common frames omitted
+09:04:33.070 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 24580 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:04:33.075 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:04:33.144 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:04:34.052 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationOrdineTavolo': Failed to instantiate [configuration.ConfigurationOrdineTavolo$$SpringCGLIB$$0]: Constructor threw exception
+09:04:34.061 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+09:04:34.080 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:04:34.141 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationOrdineTavolo': Failed to instantiate [configuration.ConfigurationOrdineTavolo$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:19)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [configuration.ConfigurationOrdineTavolo$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 41 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at configuration.ConfigurationOrdineTavolo.<init>(ConfigurationOrdineTavolo.java:17)
+	at configuration.ConfigurationOrdineTavolo$$SpringCGLIB$$0.<init>(<generated>)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 43 common frames omitted
+09:06:37.649 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 26312 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:06:37.654 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:06:37.751 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:06:38.789 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:06:38.815 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.065 seconds (process running for 3.588)
+09:11:31.562 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 26016 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:11:31.568 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:11:31.673 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:11:32.565 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:11:32.597 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 1.714 seconds (process running for 3.767)
+09:11:32.686 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:11:32.781 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassCastException: class org.springframework.beans.factory.support.NullBean cannot be cast to class model.Ordine (org.springframework.beans.factory.support.NullBean is in unnamed module of loader 'app'; model.Ordine is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3a7916dd)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.configOrdiniTavoli(OrdineTavoloRunner.java:63)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.run(OrdineTavoloRunner.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+09:12:14.817 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 15396 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:12:14.824 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:12:14.919 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:12:16.159 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:12:16.190 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.363 seconds (process running for 3.938)
+09:12:16.255 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:12:16.297 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassCastException: class org.springframework.beans.factory.support.NullBean cannot be cast to class model.Ordine (org.springframework.beans.factory.support.NullBean is in unnamed module of loader 'app'; model.Ordine is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @3c02ca59)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.configOrdiniTavoli(OrdineTavoloRunner.java:63)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.run(OrdineTavoloRunner.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+09:12:38.740 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 12656 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:12:38.747 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:12:38.911 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:12:40.357 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:12:40.386 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.716 seconds (process running for 4.496)
+09:13:57.192 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 4240 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:13:57.196 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:13:57.285 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:13:58.484 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:13:58.519 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.088 seconds (process running for 3.423)
+09:17:01.207 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 9692 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:17:01.213 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:17:01.332 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:17:02.374 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:17:02.405 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.047 seconds (process running for 3.783)
+09:18:41.476 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 21932 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:18:41.479 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:18:41.578 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:18:42.975 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:18:43.033 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.182 seconds (process running for 3.661)
+09:19:06.398 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 12888 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:19:06.404 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:19:06.509 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:19:07.706 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:19:07.739 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.225 seconds (process running for 3.989)
+09:20:50.349 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 26376 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:20:50.354 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:20:50.436 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:20:51.371 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	The method toppingAglio(Pizza) in the type ConfigurationMenu is not applicable for the arguments ()
+
+09:20:51.375 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+09:20:51.389 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+09:20:51.430 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	The method toppingAglio(Pizza) in the type ConfigurationMenu is not applicable for the arguments ()
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:21)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	The method toppingAglio(Pizza) in the type ConfigurationMenu is not applicable for the arguments ()
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method toppingAglio(Pizza) in the type ConfigurationMenu is not applicable for the arguments ()
+
+	at configuration.ConfigurationMenu.menu(ConfigurationMenu.java:49)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.CGLIB$menu$4(<generated>)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.menu(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 44 common frames omitted
+09:22:09.169 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 8756 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:22:09.172 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:22:09.255 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:22:10.317 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:22:10.346 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.151 seconds (process running for 3.587)
+09:23:32.149 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 24092 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:23:32.157 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:23:32.289 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:23:33.437 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:23:33.469 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.047 seconds (process running for 3.771)
+09:25:12.171 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 23076 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+09:25:12.176 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+09:25:12.290 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:25:13.400 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:25:13.433 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.051 seconds (process running for 3.723)
+11:52:23.426 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 17592 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:52:23.431 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:52:23.531 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:52:24.678 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:24.723 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.23 seconds (process running for 4.225)
+11:52:24.830 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:52:25.108 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'pizzaHawaiian' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'pizzaHawaiian' in your configuration.
+
+11:52:45.957 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 14936 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:52:45.962 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:52:46.048 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:52:47.248 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:47.287 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.477 seconds (process running for 4.38)
+11:52:47.377 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:52:47.634 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'pizzaFamilySizePizza' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'pizzaFamilySizePizza' in your configuration.
+
+11:53:20.815 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 24756 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:53:20.821 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:53:20.938 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:53:22.120 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:53:22.153 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.213 seconds (process running for 3.834)
+11:53:22.222 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:53:22.263 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Illegal arguments to factory method 'pizzaFamilySize'; args: FoodDrinkItem(nome=Pizza Margherita (pomodoro, formaggio), prezzo=4.99, calorie=1104.0)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:210)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.configOrdiniTavoli(OrdineTavoloRunner.java:105)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.run(OrdineTavoloRunner.java:30)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.PizzaFamilySize]: Illegal arguments to factory method 'pizzaFamilySize'; args: FoodDrinkItem(nome=Pizza Margherita (pomodoro, formaggio), prezzo=4.99, calorie=1104.0)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:157)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: wrong number of arguments
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+11:54:32.860 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 7324 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:54:32.864 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:54:32.992 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:54:34.041 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Factory method 'pizzaFamilySize' threw exception with message: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+11:54:34.045 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+11:54:34.061 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:54:34.099 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Factory method 'pizzaFamilySize' threw exception with message: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:21)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Factory method 'pizzaFamilySize' threw exception with message: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Factory method 'pizzaFamilySize' threw exception with message: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:210)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:361)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:334)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.pizzaFamilySize(<generated>)
+	at configuration.ConfigurationMenu.menu(ConfigurationMenu.java:43)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.CGLIB$menu$0(<generated>)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.menu(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.PizzaFamilySize]: Factory method 'pizzaFamilySize' threw exception with message: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 65 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "model.Pizza.getNome()" because "pizza" is null
+	at model.PizzaFamilySize.<init>(PizzaFamilySize.java:12)
+	at configuration.ConfigurationMenu.pizzaFamilySize(ConfigurationMenu.java:79)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.CGLIB$pizzaFamilySize$2(<generated>)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.pizzaFamilySize(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 66 common frames omitted
+11:55:27.415 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 4936 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:55:27.419 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:55:27.545 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:55:28.572 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Expression
+
+11:55:28.575 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+11:55:28.584 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:55:28.617 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordineTavoloRunner' defined in file [C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes\GodfatherPizza\U2W1D1SpringIntro_GodfatherPizza\runner\OrdineTavoloRunner.class]: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in configuration.ConfigurationMenu: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Expression
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:93)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.<init>(OrdineTavoloRunner.java:21)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.Menu]: Factory method 'menu' threw exception with message: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Expression
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ")" to complete Expression
+
+	at configuration.ConfigurationMenu.menu(ConfigurationMenu.java:43)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.CGLIB$menu$8(<generated>)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at configuration.ConfigurationMenu$$SpringCGLIB$$0.menu(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 44 common frames omitted
+11:55:50.024 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 12328 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:55:50.028 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:55:50.110 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:55:51.348 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:55:51.373 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.171 seconds (process running for 3.611)
+11:55:51.435 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+11:55:51.614 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'drinkWater' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'drinkWater' in your configuration.
+
+11:56:16.862 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 21196 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:56:16.866 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:56:16.999 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:56:18.159 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:56:18.186 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.038 seconds (process running for 3.501)
+11:57:46.108 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 8004 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:57:46.114 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:57:46.232 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:57:47.425 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:57:47.472 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.246 seconds (process running for 3.765)
+11:59:04.663 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 22940 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+11:59:04.670 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+11:59:04.791 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:59:05.953 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:59:05.988 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.186 seconds (process running for 3.674)
+12:01:11.217 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 7812 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:01:11.221 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:01:11.346 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:01:12.683 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:01:12.751 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.464 seconds (process running for 4.008)
+12:02:12.988 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 25884 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:02:12.992 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:02:13.096 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:02:14.231 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:02:14.267 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.115 seconds (process running for 3.569)
+12:02:14.363 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12:02:14.415 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.U2W1D1SpringIntroGodfatherPizzaApplication.main(U2W1D1SpringIntroGodfatherPizzaApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pizzaFamilySize' defined in configuration.ConfigurationMenu: Failed to instantiate [model.PizzaFamilySize]: Illegal arguments to factory method 'pizzaFamilySize'; args: FoodDrinkItem(nome=Pizza Margherita (pomodoro, formaggio), prezzo=4.99, calorie=1104.0)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:210)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.configOrdiniTavoli(OrdineTavoloRunner.java:105)
+	at GodfatherPizza.U2W1D1SpringIntro_GodfatherPizza.runner.OrdineTavoloRunner.run(OrdineTavoloRunner.java:30)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [model.PizzaFamilySize]: Illegal arguments to factory method 'pizzaFamilySize'; args: FoodDrinkItem(nome=Pizza Margherita (pomodoro, formaggio), prezzo=4.99, calorie=1104.0)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:157)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: wrong number of arguments
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+12:04:00.571 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 1332 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:04:00.596 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:04:00.752 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:04:01.996 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:04:02.043 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.332 seconds (process running for 3.896)
+12:07:46.651 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 8836 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:07:46.656 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:07:46.742 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:07:47.697 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:07:47.722 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 1.859 seconds (process running for 3.55)
+12:07:47.785 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+12:07:47.816 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method pizzaFamilySizePizza in configuration.ConfigurationMenu required a single bean, but 4 were found:
+	- pizzaMargherita: a programmatically registered singleton	- pizzaHawaiana: a programmatically registered singleton	- pizzaSalame: a programmatically registered singleton	- pizzaFamilySize: a programmatically registered singleton
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+12:09:56.958 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 18740 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:09:56.964 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:09:57.077 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:09:58.127 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:09:58.164 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 1.954 seconds (process running for 3.6)
+12:11:29.232 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 11180 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:11:29.238 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:11:29.343 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:11:30.315 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:11:30.342 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.097 seconds (process running for 3.797)
+12:13:04.860 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 16000 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:13:04.864 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:13:04.963 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:13:06.315 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:13:06.355 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.538 seconds (process running for 4.25)
+12:15:16.234 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 25920 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:15:16.240 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:15:16.364 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:15:18.324 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:15:18.371 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 3.096 seconds (process running for 5.0)
+12:16:39.128 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 1384 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:16:39.134 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:16:39.286 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:16:40.633 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:16:40.671 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.595 seconds (process running for 4.551)
+12:18:45.277 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 6800 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:18:45.281 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:18:45.368 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:18:46.479 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:18:46.521 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.023 seconds (process running for 3.756)
+12:19:20.259 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 5076 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:19:20.271 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:19:20.547 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:19:21.688 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:19:21.725 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 2.365 seconds (process running for 3.73)
+12:21:35.309 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Starting U2W1D1SpringIntroGodfatherPizzaApplication using Java 17.0.6 with PID 24692 (C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D1-SpringIntro_GodfatherPizza)
+12:21:35.313 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+12:21:35.401 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:21:36.418 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:21:36.457 [restartedMain] INFO  G.U.U2W1D1SpringIntroGodfatherPizzaApplication - Started U2W1D1SpringIntroGodfatherPizzaApplication in 1.784 seconds (process running for 3.443)

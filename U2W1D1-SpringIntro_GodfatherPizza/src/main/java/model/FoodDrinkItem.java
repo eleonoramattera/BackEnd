@@ -13,6 +13,7 @@ public abstract class  FoodDrinkItem {
 	protected String nome;
 	protected double prezzo;
 	protected double calorie;
+	//private String nota;
 
 	
 	public String getMenu() {

@@ -73,13 +73,13 @@ public PizzaSalame pizzaSalame() {
 	return new PizzaSalame();	
 }
 
-//@Bean
-//@Scope("prototype")
-//public PizzaFamilySize pizzaFamilySize(Pizza p) {
-//	return new PizzaFamilySize(p);	
-//}
 @Bean
 @Scope("prototype")
+public PizzaFamilySize pizzaFamilySizePizza(Pizza p) {
+	return new PizzaFamilySize(p);	
+}
+@Bean
+@Scope("singleton")
 public PizzaFamilySize pizzaFamilySize() {
 	return new PizzaFamilySize();	
 }
