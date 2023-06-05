@@ -1,0 +1,15 @@
+11:49:10.624 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Starting U2W1D3SpringExampleApplication using Java 17.0.6 with PID 16776 (C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample)
+11:49:10.630 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+11:49:10.731 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:49:12.092 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:49:12.154 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Started U2W1D3SpringExampleApplication in 2.27 seconds (process running for 4.533)
+11:50:03.273 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Starting U2W1D3SpringExampleApplication using Java 17.0.6 with PID 25008 (C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample)
+11:50:03.277 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+11:50:03.360 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:50:04.322 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:50:04.367 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Started U2W1D3SpringExampleApplication in 1.884 seconds (process running for 3.378)
+11:52:07.024 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Starting U2W1D3SpringExampleApplication using Java 17.0.6 with PID 16244 (C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D3_SpringExample)
+11:52:07.032 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - No active profile set, falling back to 1 default profile: "default"
+11:52:07.156 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:52:08.005 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:08.037 [restartedMain] INFO  S.U2W1D3SpringExampleApplication - Started U2W1D3SpringExampleApplication in 1.861 seconds (process running for 3.956)
