@@ -1,5 +1,6 @@
 package model;
 
+
 import java.util.Date;
 
 import enums.OccupazionePostazioni;
@@ -20,16 +21,15 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Prenotazione {
 
-	    @Id
-	    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	    private Long id;
-	    @Enumerated(EnumType.STRING)
-	    private OccupazionePostazioni OccupazionePostazione;
-	    @ManyToOne
-	    private Postazione postazione;
-	    private Date dataPrenotata;
-	    @ManyToOne
-	    private Utente utente;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Enumerated(EnumType.STRING)
+    private OccupazionePostazioni Occupazione;
+    @ManyToOne
+    private Postazione postazione;
+    private Date dataPrenotata;
+    @ManyToOne
+    private Utente utente;
 
-	}
-
+}

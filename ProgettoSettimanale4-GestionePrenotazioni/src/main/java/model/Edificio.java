@@ -14,23 +14,20 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
 @Entity
 @Table(name = "edificio")
-public class Edificio {
+public class Edificio  {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Long idEdificio;
 	private String nome;
 	private String indirizzo;
 	private String città;
 	@OneToMany
 	private List<Postazione> listaPostazione;
-	}
-
+}

@@ -1,4 +1,6 @@
 package model;
+
+import enums.Tipo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -12,22 +14,20 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
-@Table(name = "postazione")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
+@Entity
+@Table(name = "postazione")
 public class Postazione {
-
-	    @Id
-	    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	    private Long id;
-	    private String descrizionePostazione;
-	    @Enumerated(EnumType.STRING)
-	    private Tipo tipo;
-	    private Integer numMaxOccupanti;
-	    @ManyToOne
-	    private Edificio edificio;
-	}
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String descrizionePostazione;
+    @Enumerated(EnumType.STRING)
+    private Tipo tipo;
+    private Integer numMaxOccupanti;
+    @ManyToOne
+    private Edificio edificio;
+}
