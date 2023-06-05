@@ -1,0 +1,245 @@
+14:33:22.909 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 5468 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+14:33:22.913 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+14:33:23.003 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:33:23.872 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+14:33:23.920 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
+14:33:24.784 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:33:25.478 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@346d1977
+14:33:25.482 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:33:25.866 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:33:25.910 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Started U2W1D4SpringDataJdbcApplication in 3.874 seconds (process running for 5.544)
+14:33:26.201 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:33:26.209 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:07:27.508 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 20140 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:07:27.514 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:07:27.608 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:07:28.214 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:07:28.242 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+16:07:28.703 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRunner': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'db': No qualifying bean of type 'SpringDataJDBC.repository.UserDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:07:28.739 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:07:28.801 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field db in SpringDataJDBC.service.UserService required a bean of type 'SpringDataJDBC.repository.UserDAO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'SpringDataJDBC.repository.UserDAO' in your configuration.
+
+16:10:21.986 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 21256 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:10:21.991 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:10:22.097 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:10:22.893 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:10:22.936 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+16:10:23.415 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRunner': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'db': No qualifying bean of type 'SpringDataJDBC.repository.UserDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:10:23.444 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:10:23.499 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field db in SpringDataJDBC.service.UserService required a bean of type 'SpringDataJDBC.repository.UserDAO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'SpringDataJDBC.repository.UserDAO' in your configuration.
+
+16:16:25.229 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 12172 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:16:25.233 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:16:25.347 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:16:26.161 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:16:26.204 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+16:16:26.687 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRunner': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'db': No qualifying bean of type 'SpringDataJDBC.repository.UserDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:16:26.713 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:16:26.762 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field db in SpringDataJDBC.service.UserService required a bean of type 'SpringDataJDBC.repository.UserDAO' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'SpringDataJDBC.repository.UserDAO' in your configuration.
+
+16:18:58.301 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 18660 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:18:58.306 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:18:58.419 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:18:59.078 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:18:59.108 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+16:18:59.867 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:19:00.377 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29470e8e
+16:19:00.381 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:19:00.765 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:19:00.831 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Started U2W1D4SpringDataJdbcApplication in 3.497 seconds (process running for 5.316)
+16:19:01.369 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:19:01.483 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:28:30.283 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 24012 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:28:30.288 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:28:30.410 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:28:31.088 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:28:31.116 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+16:28:31.724 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:28:32.065 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@634c21a5
+16:28:32.069 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:28:32.330 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:28:32.381 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Started U2W1D4SpringDataJdbcApplication in 2.892 seconds (process running for 4.387)
+16:28:32.706 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:28:32.734 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at SpringDataJDBC.U2W1D4SpringDataJdbcApplication.main(U2W1D4SpringDataJdbcApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [UPDATE public.user SET name=?, lastName=?, city=?, age=?, email=?]; ERRORE: un valore chiave duplicato viola il vincolo univoco "user_email_key"
+  Dettaglio: La chiave (email)=(m.rossi@example.com) esiste già.
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:667)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025)
+	at SpringDataJDBC.repository.UserDAO.update(UserDAO.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at SpringDataJDBC.repository.UserDAO$$SpringCGLIB$$0.update(<generated>)
+	at SpringDataJDBC.service.UserService.updatetUser(UserService.java:46)
+	at SpringDataJDBC.runner.UserRunner.run(UserRunner.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "user_email_key"
+  Dettaglio: La chiave (email)=(m.rossi@example.com) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	... 30 common frames omitted
+16:28:32.754 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:28:32.865 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:30:06.559 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Starting U2W1D4SpringDataJdbcApplication using Java 17.0.6 with PID 14524 (C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC\target\classes started by Micro in C:\Users\Micro\Desktop\BackEnd\U2W1D4_SpringDataJDBC)
+16:30:06.566 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - No active profile set, falling back to 1 default profile: "default"
+16:30:06.688 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:30:07.540 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+16:30:07.579 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+16:30:08.153 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:30:08.485 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@af0c8e7
+16:30:08.489 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:30:08.762 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:30:08.812 [restartedMain] INFO  S.U2W1D4SpringDataJdbcApplication - Started U2W1D4SpringDataJdbcApplication in 3.115 seconds (process running for 4.858)
+16:30:09.106 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:30:09.141 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at SpringDataJDBC.U2W1D4SpringDataJdbcApplication.main(U2W1D4SpringDataJdbcApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [UPDATE public.user SET name=?, lastName=?, city=?, age=?, email=?]; ERRORE: un valore chiave duplicato viola il vincolo univoco "user_email_key"
+  Dettaglio: La chiave (email)=(m.rossi@example.com) esiste già.
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:103)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:667)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025)
+	at SpringDataJDBC.repository.UserDAO.update(UserDAO.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at SpringDataJDBC.repository.UserDAO$$SpringCGLIB$$0.update(<generated>)
+	at SpringDataJDBC.service.UserService.updatetUser(UserService.java:46)
+	at SpringDataJDBC.runner.UserRunner.run(UserRunner.java:42)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERRORE: un valore chiave duplicato viola il vincolo univoco "user_email_key"
+  Dettaglio: La chiave (email)=(m.rossi@example.com) esiste già.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	... 30 common frames omitted
+16:30:09.160 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:30:09.245 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
