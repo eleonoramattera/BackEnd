@@ -1,5 +1,7 @@
 package model;
 
+import java.util.List;
+
 import enums.Tipo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -8,6 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -30,4 +33,17 @@ public class Postazione {
     private Integer numMaxOccupanti;
     @ManyToOne
     private Edificio edificio;
+    @OneToMany
+	private List<Prenotazione> listaPrenotazioni;
+    
+    public Postazione(String descrizionePostazione, Tipo tipo, Integer numMaxOccupanti, Edificio edificio) {
+		super();
+		this.descrizionePostazione = descrizionePostazione;
+		this.tipo = tipo;
+		this.numMaxOccupanti = numMaxOccupanti;
+		this.edificio = edificio;
+	}
+
+	
+    
 }

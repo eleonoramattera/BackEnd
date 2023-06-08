@@ -3,7 +3,8 @@ package model;
 
 
 
-	import jakarta.persistence.Entity;
+	import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 	import jakarta.persistence.GeneratedValue;
 	import jakarta.persistence.GenerationType;
 	import jakarta.persistence.Id;
@@ -23,8 +24,17 @@ package model;
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
-	    private String cognome;
-	    private String nome;
-	    private String email;
+		@Column(nullable = false, unique = true)
+		private String username;
+		private String fullname;
+		@Column(nullable = false, unique = true)
+		private String email;
+		
+		public Utente(String fullname, String email, String username) {
+			super();
+			this.email = email;
+			this.fullname = fullname;
+			this.username = username;
+		}
 	}
 

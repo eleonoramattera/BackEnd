@@ -2,25 +2,20 @@ package GestionePrenotazioni.repository;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 import enums.Tipo;
 import model.Postazione;
 
+public interface IPostazioneDAO extends JpaRepository <Postazione, Long> {
+	
+	  @Query(value = "SELECT p FROM postazione p WHERE p.id = 1")
+	    public Postazione querypostazioneid1();
 
-@Repository
-public interface IPostazioneDAO extends CrudRepository<Postazione, Long>{
+	    public List<Postazione> findBydescrizionepostazione(String descrizionepostazione);
 
-	  @Query(value = "SELECT p FROM Postazione p WHERE p.id = 1")
-	    public Postazione queryPostazioneId1();
-
-	    public List<Postazione> findByDescrizionePostazione(String descrizionePostazione);
-
-	    public List<Postazione> findByNumMaxOccupanti(Integer numMaxOccupanti);
+	    public List<Postazione> findBynummaxoccupanti(Integer nummaxoccupanti);
 
 	    public List<Postazione> findByTipo(Tipo tipo);
-	}
-
-
+}
