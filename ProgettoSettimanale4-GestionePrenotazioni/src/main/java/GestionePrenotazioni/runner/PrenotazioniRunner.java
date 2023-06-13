@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -106,6 +107,16 @@ public class PrenotazioniRunner implements CommandLineRunner {
      prenotazioneService.insertPrenotazione(pre1);
      System.out.println(pre1);
      
+     
+     
+     Scanner s = new Scanner(System.in);
+     System.out.println("vuoi prenotare una postazione? si/ no");
+     String resp = s.nextLine();
+     if(resp == "no") {
+    	 System.out.println("sei uscito");
+     } else if (resp == "yes") {
+    	
+     }
      
 	}
 	
