@@ -88,8 +88,8 @@ public class PageController {
 				}		
 		
 		//per leggere più parametri nella pag html METODO 4
-		@GetMapping("/page4/{fullname}/{city}")
-		public ModelAndView getPage(@PathVariable String fullname, @PathVariable String city) {
+		@GetMapping("/page6/{fullname}/{city}")
+		public ModelAndView getPage6(@PathVariable String fullname, @PathVariable String city) {
 			String page = fullname != "" ? "pageThymeleaf" : "errorPage";
 			ModelAndView model = new ModelAndView(page);
 			model.addObject("fullname", fullname);
